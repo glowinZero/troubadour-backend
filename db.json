@@ -1,0 +1,500 @@
+{
+  "users": [
+    {
+      "name": "Bruno",
+      "email": "bruno.carneiro@outlook.pt",
+      "username": "glowinZero",
+      "password": "qwerty1234",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "username": "jakob",
+      "name": "Jakob",
+      "email": "jakob@gmail.com",
+      "password": "qwerty4321"
+    }
+  ],
+  "playlists": [
+    {
+      "url": "https://niceplaylist.com",
+      "modd": "happy",
+      "userId": "1",
+      "id": 1
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "neutral",
+      "userId": "1",
+      "id": 2
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "neutral",
+      "userId": "1",
+      "id": 3
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "undefined",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "undefined",
+      "userId": "1",
+      "id": 5
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 6
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 7
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 10
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 11
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 12
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 13
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 14
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 15
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 16
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 17
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 18
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 19
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 20
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 21
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 24
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 25
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 28
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/",
+      "modd": "happy",
+      "userId": "1",
+      "id": 29
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "1",
+      "id": 32
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "1",
+      "id": 33
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 34
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 35
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 37
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 38
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 39
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": ":userId",
+      "id": 40
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 41
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/3ZSrmxum4VahVCbvDGztRc",
+      "mood": "undefined",
+      "userId": "3",
+      "id": 42
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 43
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 44
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 45
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 46
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 47
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 48
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 49
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 50
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 51
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 52
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 53
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 54
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 55
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 56
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 57
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 58
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 59
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 60
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 61
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 62
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 63
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 64
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 65
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 66
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 67
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 68
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 69
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 70
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 71
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 72
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 73
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 74
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 75
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 76
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 77
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 78
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 79
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 80
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 81
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": ":userId",
+      "id": 82
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "undefined",
+      "id": 83
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "undefined",
+      "id": 84
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/7GhawGpb43Ctkq3PRP1fOL",
+      "mood": "happy",
+      "userId": "3",
+      "id": 85
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/37i9dQZF1DX3oM43CtKnRV",
+      "mood": "null",
+      "userId": "1",
+      "id": 86
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/37i9dQZF1DX3oM43CtKnRV",
+      "mood": "null",
+      "userId": "1",
+      "id": 87
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/37i9dQZF1DX3oM43CtKnRV",
+      "mood": "null",
+      "userId": "1",
+      "id": 88
+    },
+    {
+      "url": "https://open.spotify.com/embed/playlist/37i9dQZF1DX3oM43CtKnRV",
+      "mood": "null",
+      "userId": "1",
+      "id": 89
+    }
+  ]
+}
