@@ -13,7 +13,7 @@ module.exports = (app) => {
   app.set("trust proxy", 1);
   app.use(
     cors({
-      origin: [FRONTEND_URL, "http://localhost:5173"]
+      origin: [FRONTEND_URL, "https://fabulous-gnome-6f4332.netlify.app/"]
     })
   );
 
