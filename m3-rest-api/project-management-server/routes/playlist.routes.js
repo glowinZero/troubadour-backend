@@ -45,7 +45,7 @@ router.post("/playlist", (req, res) => {
       .catch((error) => res.json(error));
 });
 
-app.post ("playlist/chatgpt", async (req,res)=>{ //need to update route "/chat" so it works with the front end
+router.post ("playlist/chatgpt", async (req,res)=>{ //need to update route "/playlist/chatgpt" on the front end
   const {prompt} = req.body;
 
   const completion = await openai.createCompletion({
