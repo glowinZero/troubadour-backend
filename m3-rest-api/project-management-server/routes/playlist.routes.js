@@ -35,7 +35,7 @@ router.put("/playlists/:playlistId", (req, res) => {
       .catch(() => {
         res.json({ message: "Failed to Update Playlist." });
       });
-  });
+});
 
 router.post("/playlist", (req, res) => {
     const {title, deadline, status, user: userId} = req.body; 
