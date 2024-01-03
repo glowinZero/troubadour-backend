@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
     cors({
-      origin: ["http://localhost:5173"],
+      origin: ["https://fabulous-gnome-6f4332.netlify.app/"],
     })
   );
 

@@ -39,7 +39,7 @@ router.post('/signup', (req,res)=>{
             }
 
 
-            const salt = bcrypt.genSaltSync(saltRounds); // Add to edit user (put)
+            const salt = bcrypt.genSaltSync(saltRounds); 
             const hashedPassword = bcrypt.hashSync(password, salt);
 
             return User.create({email, password: hashedPassword, username, playlists});
