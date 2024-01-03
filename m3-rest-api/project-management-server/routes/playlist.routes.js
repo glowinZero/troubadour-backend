@@ -24,11 +24,11 @@ router.get("/playlists", (req, res) => {
 });
 
 
-router.put("/playlists/:playlistId", (req, res) => {
+router.put("/playlists/:playlistId", (req, res) => { //not using the put route as of now
     const { playlistId } = req.params;
-    const {title, deadline, status, user: userId} = req.body; 
+    const {title, mood, url, user: userId} = req.body; 
   
-    Playlist.findByIdAndUpdate(playlistId, {title, deadline, status, user: userId}, { new: true })
+    Playlist.findByIdAndUpdate(playlistId, {title, mood, url, user: userId}, { new: true })
       .then(() => {
         res.json({ message: "Playlist Updated!" });
       })
@@ -38,11 +38,23 @@ router.put("/playlists/:playlistId", (req, res) => {
 });
 
 router.post("/playlist", (req, res) => {
-    const {title, deadline, status, user: userId} = req.body; 
+    const {title, mood, url, user: userId} = req.body; 
 
-    Playlist.create({title, deadline, status, user: userId})
+    Playlist.create({title, mood, url, user: userId})
       .then((response) => res.json(response))
       .catch((error) => res.json(error));
+});
+
+router.post ("playlist/chatgpt", async (req,res)=>{ //need to update route "/playlist/chatgpt" on the front end
+  const {prompt} = req.body;
+
+  const completion = await openai.createCompletion({
+    model: "text-davinci-003",
+    max_tokens: 512,
+    temperature: 0.5,
+    prompt: `analyze the following paragraph and assign one of the following moods to it. Give only one word as an answer: happy, sad, angry, calm, excited, scared, bored, confused, focused, motivated, driven, grounded, melancholic, nostalgic, balanced, relaxed. : ${prompt}`,
+  });
+  res.send (completion.data.choices[0].text);
 });
 
 router.delete("/playlists/:playlistId", (req, res) => {
