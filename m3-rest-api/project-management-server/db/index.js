@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI ="mongodb+srv://glowinZero:Qwerty1234@cluster0.cli2qkr.mongodb.net/troubadour?retryWrites=true&w=majority";
+const MONGO_URI ="mongodb+srv://glowinZero:Qwerty1234@cluster0.cli2qkr.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(MONGO_URI)
