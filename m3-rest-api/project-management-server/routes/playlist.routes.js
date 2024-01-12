@@ -25,7 +25,7 @@ router.get("/playlists", (req, res) => {
 });
 
 
-router.put("/playlists/:playlistId", (req, res) => { //not using the put route as of now
+router.put("/playlists/:playlistId", (req, res) => {
     const { playlistId } = req.params;
     const {title, mood, url, user: userId} = req.body; 
   
@@ -46,7 +46,7 @@ router.post("/playlist", (req, res) => {
       .catch((error) => res.json(error));
 });
 
-router.post ("/playlists/chatgpt", async (req,res)=>{ //need to update route "/playlist/chatgpt" on the front end
+router.post ("/playlists/chatgpt", async (req,res)=>{ 
   const {prompt} = req.body;
 
   const completion = await openai.createCompletion({
