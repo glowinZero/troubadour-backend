@@ -7,11 +7,15 @@ const express = require("express");
 
 const app = express();
 
-app.use(
-    cors({
-      origin: ["https://fabulous-gnome-6f4332.netlify.app", "http://localhost:5173"],
-    })
-  );
+const corsOptions = {
+    origin: "*",
+    methods: 'GET,OPTIONS,PATCH,DELETE,POST,PUT',
+    allowedHeaders: '*',
+    credentials: true,
+  };
+  
+// Enable CORS for all routes
+app.use(cors(corsOptions));
 
 require("./config")(app);
 

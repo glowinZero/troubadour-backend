@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const router = express.Router();
 
 const Playlist = require('../models/Playlists.model');
+const openai = require('openai');
 
 router.get("/playlists/:userId", (req, res)=>{
   const {userId} = req.params;
