@@ -20,7 +20,7 @@ router.post('/openai', async (req, res) => {
           }]
       }, {
           headers: {
-              'Authorization': `Bearer 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`, // Replace with your API key
+              'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`, // Replace with your API key
               'Content-Type': 'application/json'
           }
       });
