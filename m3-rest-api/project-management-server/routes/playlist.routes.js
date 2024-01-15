@@ -1,10 +1,41 @@
 const express = require('express');
+const axios = require('axios');
 const mongoose = require("mongoose");
-
 const router = express.Router();
-
 const Playlist = require('../models/Playlists.model');
-const openai = require('openai');
+
+
+//**chatgpt integration */
+
+router.post('/openai', async (req, res) => {
+  // Extracting the message from the request body if you want dynamic content
+  const userMessage = req.body.prompt || "i am happy but also a bit exhausted";
+
+  try {
+      const response = await axios.post('https://api.openai.com/v1/chat/completions', {
+          model: "gpt-4",
+          messages: [{
+              role: "system",
+              content: `Analyze my mood and give a response of only one word: ${userMessage}`
+          }]
+      }, {
+          headers: {
+              'Authorization': `Bearer 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`, // Replace with your API key
+              'Content-Type': 'application/json'
+          }
+      });
+
+      // Sending back the response from OpenAI to the client
+      res.json(response.data.choices[0].message.content);
+  } catch (error) {
+      console.error("Error with OpenAI API:", error.response ? error.response.data : error);
+      res.status(500).send('Error with OpenAI API');
+  }
+});
+
+module.exports = router;
+
+//chatgpt integration end
 
 router.get("/playlists/:userId", (req, res)=>{
   const {userId} = req.params;
@@ -44,18 +75,6 @@ router.post("/playlist", (req, res) => {
     Playlist.create({title, mood, url, user: userId})
       .then((response) => res.json(response))
       .catch((error) => res.json(error));
-});
-
-router.post ("/playlists/chatgpt", async (req,res)=>{ 
-  const {prompt} = req.body;
-
-  const completion = await openai.createCompletion({
-    model: "text-davinci-003",
-    max_tokens: 512,
-    temperature: 0.5,
-    prompt: `analyze the following paragraph and assign one of the following moods to it. Give only one word as an answer: happy, sad, angry, calm, excited, scared, bored, confused, focused, motivated, driven, grounded, melancholic, nostalgic, balanced, relaxed. : ${prompt}`,
-  });
-  res.send (completion.data.choices[0].text);
 });
 
 router.delete("/playlists/:playlistId", (req, res) => {
