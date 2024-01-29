@@ -10,6 +10,7 @@ const Playlist = require('../models/Playlists.model');
 router.post('/openai', async (req, res) => {
   // Extracting the message from the request body if you want dynamic content
   const userMessage = req.body.prompt || "i am happy but also a bit exhausted";
+  console.log(userMessage);
 
   try {
       const response = await axios.post('https://api.openai.com/v1/chat/completions', {
@@ -29,6 +30,8 @@ router.post('/openai', async (req, res) => {
       res.json(response.data.choices[0].message.content);
   } catch (error) {
       console.error("Error with OpenAI API:", error.response ? error.response.data : error);
+      console.error("Error with OpenAI API:", error.response ? error.response.status : error);
+      console.error("Error with OpenAI API:", error.response ? error.response.headers : error);
       res.status(500).send('Error with OpenAI API');
   }
 });
